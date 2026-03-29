@@ -1,5 +1,5 @@
 import type { HabitLog, Transaction, TransactionType } from '../types'
-import { format, parseISO, subDays, isValid, startOfMonth, endOfMonth, eachDayOfInterval, getDaysInMonth } from 'date-fns'
+import { format, parseISO, subDays, isValid, startOfMonth, endOfMonth, eachDayOfInterval } from 'date-fns'
 
 export function computeHabitStreak(logs: HabitLog[], habitId: string): { current: number; best: number } {
   const dates = logs

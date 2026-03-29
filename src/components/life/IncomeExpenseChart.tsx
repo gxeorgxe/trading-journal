@@ -1,7 +1,7 @@
 import type { Transaction } from '../../types'
 import { GlassCard } from '../ui/GlassCard'
 import { computeMonthlyTrend } from '../../utils/lifeAnalytics'
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts'
 
 interface Props {
   transactions: Transaction[]

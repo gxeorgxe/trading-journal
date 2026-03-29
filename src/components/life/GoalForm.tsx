@@ -6,7 +6,6 @@ import { Input } from '../ui/Input'
 import { Textarea } from '../ui/Textarea'
 import { Select } from '../ui/Select'
 import { Button } from '../ui/Button'
-import { today } from '../../utils/dateUtils'
 
 interface Props {
   initial?: Goal
